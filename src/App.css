@@ -1,0 +1,80 @@
+.App {
+  /* text-align: center; */
+}
+
+
+.image{
+  z-index: -1;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+#form{
+  z-index: 1;
+}
+.Form{
+  margin-left: 800px;
+  margin-top: -800px; 
+  display: flex;
+  z-index: 1;
+}
+
+input{
+  height: 40px;
+  width: 380px;
+  border-radius: 8px;
+  border-color: none;
+  Font: Inter;
+  font-size: 15px;
+  line-height: 18px;
+  font-size: 20px;
+}
+
+label{
+  font: Roboto;
+  font-size: 20px;
+  color: rgba(64, 64, 64, 1);
+}
+
+.name{
+  margin-top: 15px;
+}
+
+.numberField, .dateField {
+  margin-top: 25px;
+}
+
+.number, .month, .year{
+  margin-top: 15px;
+}
+.dateField{
+  width: 200px;
+  display: inline;
+}
+
+.month, .year{
+  width: 80px;
+  margin:5px;
+}
+
+.cvvField{
+  display: inline;
+}
+
+.cvv{
+  width: 130px;
+}
+
+
+
+button{
+  height: 40px;
+  width: 380px;
+  border-radius: 8px;
+  background-color:  rgba(34, 9, 48, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+}
