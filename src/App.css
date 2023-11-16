@@ -3,7 +3,7 @@
 }
 
 
-.image{
+.image {
   z-index: -1;
 }
 
@@ -12,17 +12,18 @@
 }
 
 
-#form{
+#form {
   z-index: 1;
 }
-.Form{
+
+.Form {
   margin-left: 800px;
-  margin-top: -800px; 
+  margin-top: -680px;
   display: flex;
   z-index: 1;
 }
 
-input{
+input {
   height: 40px;
   width: 380px;
   border-radius: 8px;
@@ -33,48 +34,120 @@ input{
   font-size: 20px;
 }
 
-label{
+label {
   font: Roboto;
   font-size: 20px;
   color: rgba(64, 64, 64, 1);
 }
 
-.name{
+.name {
   margin-top: 15px;
 }
 
-.numberField, .dateField {
+.numberField,
+.dateField {
   margin-top: 25px;
 }
 
-.number, .month, .year{
+.number,
+.month,
+.year {
   margin-top: 15px;
 }
-.dateField{
+
+.dateField {
   width: 200px;
   display: inline;
 }
 
-.month, .year{
+.month,
+.year {
   width: 80px;
-  margin:5px;
+  margin: 5px;
 }
 
-.cvvField{
+.cvvField {
   display: inline;
 }
 
-.cvv{
+.cvv {
   width: 130px;
 }
 
 
 
-button{
+button {
   height: 40px;
   width: 380px;
   border-radius: 8px;
-  background-color:  rgba(34, 9, 48, 1);
+  background-color: rgba(34, 9, 48, 1);
   color: rgba(255, 255, 255, 1);
   border: none;
+}
+
+.credit-card{
+ z-index: 1;
+}
+
+.cardFront{
+  position: relative;
+}
+
+
+.cardNumber {
+  margin: -100px 0px 0px 100px;
+
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.18em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.cardName {
+  margin: 0px 0px 0px 100px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.19em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+
+  word-spacing: 10px;
+
+}
+
+.cardMonthYear {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.235em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+/* 
+.letters{
+  letter-spacing: 2px;
+} */
+
+.cardBack{
+  position: relative;
+  display: inline;
+}
+
+.cardCvv{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.235em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+
+  /* margin: -195px 0px 0px 570px; */
+
 }
