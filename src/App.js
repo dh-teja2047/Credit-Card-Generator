@@ -32,7 +32,10 @@ function Form() {
           </div>
           <div className='cardBack'>
             <img src="Card-2.png" class="card2" alt='Card Back' />
-            <p className='cardCvv'>{`${cvv}`}</p>
+            <div className='cardCvv'>
+              <p >{`${cvv}`}</p>
+            </div>
+            
           </div>
         </div>
         <img src='Group-2.png' class="backgroundImage1" alt='Car CVV' />
